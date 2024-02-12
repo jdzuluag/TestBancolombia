@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d5821ecb11d88c543a04d81ec298e2123c72b15096eacffa40e3d2e7d3357fcc.html">As A User I Need To Enter To Te Test Area</a></span>
+                > <span class="truncate-60"><a
+                    href="a3701fb00f1f249c1ab80bb11e784162b29c39285577502f4a52a1ff11fbf6da.html">The user login into te main page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-02-2024 20:29</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">As A User I Need To Enter To Te Test Area </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Main page
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="f9380d9e1cfe08849ec5fcd0d6bf0448a16ba4a90475f4c8aa56b52ae7b99c71.html">Enterhome
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">The user login into te main page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="97a7910f3d97114677eb786a1daf58e0588ff96856965bbb83dda3116711efa7.png" title=" Given the user enters the main page" width="1920"/>
+                <img src="0d32046147ce1e0964fa1249b4916671e7b6e2767a5c6a389f92acef308584b6.png" title=" When the user enters the 780811 and 10df2f32286b7120Mi00LTExODA4Nw==30e0c83e6c29f1c3" width="1920"/>
+                <img src="0d32046147ce1e0964fa1249b4916671e7b6e2767a5c6a389f92acef308584b6.png" title=" Daniel login" width="1920"/>
+                <img src="0d32046147ce1e0964fa1249b4916671e7b6e2767a5c6a389f92acef308584b6.png" title=" Daniel enters '780811' into the user enters his user" width="1920"/>
+                <img src="0d32046147ce1e0964fa1249b4916671e7b6e2767a5c6a389f92acef308584b6.png" title=" Daniel enters '10df2f32286b7120Mi00LTExODA4Nw==30e0c83e6c29f1c3' into the user enters his password" width="1920"/>
+                <img src="e503c15d54a4c5b0ca31f2ab0185e981603ebf351b60e966a561c5396500f5cc.png" title=" Daniel enters '10df2f32286b7120Mi00LTExODA4Nw==30e0c83e6c29f1c3' into the user enters his password (completed)" width="1920"/>
+                <img src="e503c15d54a4c5b0ca31f2ab0185e981603ebf351b60e966a561c5396500f5cc.png" title=" Daniel clicks on the user click on send" width="1920"/>
+                <img src="32adffefa5f58db0074e034b1a8db90b2568c1ede3b819a16ab8c5672768bafb.png" title=" Daniel clicks on the user click on send (completed)" width="1920"/>
+                <img src="32adffefa5f58db0074e034b1a8db90b2568c1ede3b819a16ab8c5672768bafb.png" title=" Daniel wait hook" width="1920"/>
+                <img src="32adffefa5f58db0074e034b1a8db90b2568c1ede3b819a16ab8c5672768bafb.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="32adffefa5f58db0074e034b1a8db90b2568c1ede3b819a16ab8c5672768bafb.png" title=" Daniel login (completed)" width="1920"/>
+                <img src="32adffefa5f58db0074e034b1a8db90b2568c1ede3b819a16ab8c5672768bafb.png" title=" When the user enters the 780811 and 10df2f32286b7120Mi00LTExODA4Nw==30e0c83e6c29f1c3 (completed)" width="1920"/>
+                <img src="d24ea27b660d2d1fba0b8c86cc8e47f94b0fa197e9f91c3160223c8b7cd4ccc5.png" title=" When the user complete the first cycle whit the info 182 -9023350 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 10" width="1920"/>
+                <img src="d24ea27b660d2d1fba0b8c86cc8e47f94b0fa197e9f91c3160223c8b7cd4ccc5.png" title=" Daniel complete first cycle" width="1920"/>
+                <img src="d24ea27b660d2d1fba0b8c86cc8e47f94b0fa197e9f91c3160223c8b7cd4ccc5.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="d24ea27b660d2d1fba0b8c86cc8e47f94b0fa197e9f91c3160223c8b7cd4ccc5.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="55650979003cee2f25bc88a713eea738033bad194ce953173a01c303633f7c6e.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="55650979003cee2f25bc88a713eea738033bad194ce953173a01c303633f7c6e.png" title=" Daniel enters 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB' into the user enters all the information" width="1920"/>
+                <img src="af0c209d839a7d707065f91b9f45810700dfd594f269b98feae8c2a191fe14e9.png" title=" Daniel enters 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB' into the user enters all the information (completed)" width="1920"/>
+                <img src="af0c209d839a7d707065f91b9f45810700dfd594f269b98feae8c2a191fe14e9.png" title=" Daniel enters '10' into the user enters the count" width="1920"/>
+                <img src="ff92cbdeffa25822af2c96f1ea6cb1a99ea1f574327f813615062dcf7cc200a1.png" title=" Daniel enters '10' into the user enters the count (completed)" width="1920"/>
+                <img src="ff92cbdeffa25822af2c96f1ea6cb1a99ea1f574327f813615062dcf7cc200a1.png" title=" Daniel wait hook" width="1920"/>
+                <img src="a1caf07c4e09093f672123cc49fb0f74f463a14b30aac0720c7fa76c83c5950d.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="a1caf07c4e09093f672123cc49fb0f74f463a14b30aac0720c7fa76c83c5950d.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="2cf9198778511a052776787a61365286a391b27a1421ce5dcd12c6fa22f58f3d.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="2cf9198778511a052776787a61365286a391b27a1421ce5dcd12c6fa22f58f3d.png" title=" Daniel wait hook" width="1920"/>
+                <img src="2cf9198778511a052776787a61365286a391b27a1421ce5dcd12c6fa22f58f3d.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="2cf9198778511a052776787a61365286a391b27a1421ce5dcd12c6fa22f58f3d.png" title=" Daniel complete first cycle (completed)" width="1920"/>
+                <img src="2cf9198778511a052776787a61365286a391b27a1421ce5dcd12c6fa22f58f3d.png" title=" When the user complete the first cycle whit the info 182 -9023350 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 10 (completed)" width="1920"/>
+                <img src="462f6e158cc5f76fcbc9ea8f95027474471f3c8b2be78e15176c719ab600d485.png" title=" When the user complete the second cycle whit the info 21 132 33 171 93 120 198 246504 YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY 17" width="1920"/>
+                <img src="462f6e158cc5f76fcbc9ea8f95027474471f3c8b2be78e15176c719ab600d485.png" title=" Daniel complete second cycle" width="1920"/>
+                <img src="462f6e158cc5f76fcbc9ea8f95027474471f3c8b2be78e15176c719ab600d485.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="462f6e158cc5f76fcbc9ea8f95027474471f3c8b2be78e15176c719ab600d485.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="a0d7d45d6f47d067dd41950536e84b056c46f734cf6c3d145c3f14815fc15a49.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="a0d7d45d6f47d067dd41950536e84b056c46f734cf6c3d145c3f14815fc15a49.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="2c3dc4ccf78b68650dcc6a0ec3cad642e6ee807b438556306f556384afe3d621.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="2c3dc4ccf78b68650dcc6a0ec3cad642e6ee807b438556306f556384afe3d621.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="d01b80cc50ce766ab693b6cc4cc8349ad43fca2877b7690cb1aa3f4d27f6a329.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="d01b80cc50ce766ab693b6cc4cc8349ad43fca2877b7690cb1aa3f4d27f6a329.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="f7e1ef5516acdda0d0dcda0678e5324f152ab9098ede52a31a4238aea531853d.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="f7e1ef5516acdda0d0dcda0678e5324f152ab9098ede52a31a4238aea531853d.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="9840e8266d2cbdddb7e60eaf52498d4cf98c7a84242b682e01a52a3fdc578c91.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="9840e8266d2cbdddb7e60eaf52498d4cf98c7a84242b682e01a52a3fdc578c91.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="423db1dbb97d109783a2bbc95114b002110f33368f8e768d105c268f14fe9aad.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="423db1dbb97d109783a2bbc95114b002110f33368f8e768d105c268f14fe9aad.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="2e0a9b05f5930c8728470c7b5e976252a7867e3c9915ce4332d05d42434dcfb4.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="2e0a9b05f5930c8728470c7b5e976252a7867e3c9915ce4332d05d42434dcfb4.png" title=" Daniel enters 'YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY' into the user enters all the information" width="1920"/>
+                <img src="6ce1a257804faf1e2152c00a815bacadfc003b01d5eaf7a9754859b94ea16fa9.png" title=" Daniel enters 'YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY' into the user enters all the information (completed)" width="1920"/>
+                <img src="6ce1a257804faf1e2152c00a815bacadfc003b01d5eaf7a9754859b94ea16fa9.png" title=" Daniel enters '17' into the user enters the count" width="1920"/>
+                <img src="7eec2ec8e4d198691f2b2f540bea7a69914b4431af33f007e7e96dc20175dcf7.png" title=" Daniel enters '17' into the user enters the count (completed)" width="1920"/>
+                <img src="7eec2ec8e4d198691f2b2f540bea7a69914b4431af33f007e7e96dc20175dcf7.png" title=" Daniel wait hook" width="1920"/>
+                <img src="b0e715c3509e7a16cc9241557ffe727b33eba8c66459b730531214eb6bec3c83.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="b0e715c3509e7a16cc9241557ffe727b33eba8c66459b730531214eb6bec3c83.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="eae6415ec2b48768d206d5d37b33ae16161fb5cdb0e0827e202a1aba74dfb88b.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="eae6415ec2b48768d206d5d37b33ae16161fb5cdb0e0827e202a1aba74dfb88b.png" title=" Daniel wait hook" width="1920"/>
+                <img src="eae6415ec2b48768d206d5d37b33ae16161fb5cdb0e0827e202a1aba74dfb88b.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="eae6415ec2b48768d206d5d37b33ae16161fb5cdb0e0827e202a1aba74dfb88b.png" title=" Daniel complete second cycle (completed)" width="1920"/>
+                <img src="eae6415ec2b48768d206d5d37b33ae16161fb5cdb0e0827e202a1aba74dfb88b.png" title=" When the user complete the second cycle whit the info 21 132 33 171 93 120 198 246504 YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY 17 (completed)" width="1920"/>
+                <img src="c1cf4d3fb5b6f7963b406d868b0f364de6cb0813667346a9c513a67c0e28dcbc.png" title=" When the user complete the third cycle whit the info 58 14 38 98 -1693956 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy 13" width="1920"/>
+                <img src="c1cf4d3fb5b6f7963b406d868b0f364de6cb0813667346a9c513a67c0e28dcbc.png" title=" Daniel complete third cycle" width="1920"/>
+                <img src="c1cf4d3fb5b6f7963b406d868b0f364de6cb0813667346a9c513a67c0e28dcbc.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="c1cf4d3fb5b6f7963b406d868b0f364de6cb0813667346a9c513a67c0e28dcbc.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="0d652d30c7223e6d81afcf91e8f2e8bce060bd2ff77d30bd02056553df283681.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="0d652d30c7223e6d81afcf91e8f2e8bce060bd2ff77d30bd02056553df283681.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="3134574df8fa93d4e686bca58bcd6f785de5b8948fc2cb41ffbec8e733fcf3c0.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="3134574df8fa93d4e686bca58bcd6f785de5b8948fc2cb41ffbec8e733fcf3c0.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="152fcfe64c22286c41399f02febc17633ef618ec68da9925c8012c4c77bbdf23.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="152fcfe64c22286c41399f02febc17633ef618ec68da9925c8012c4c77bbdf23.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="e00af1c010fef697d2753d4613c1f52acc00d4023b0c26110f087e9ac873809d.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="e00af1c010fef697d2753d4613c1f52acc00d4023b0c26110f087e9ac873809d.png" title=" Daniel enters 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy' into the user enters all the information" width="1920"/>
+                <img src="5a5f695013c4ae4c0877a12631f3f4ac67cbf70a7304c32497a71c0635502074.png" title=" Daniel enters 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy' into the user enters all the information (completed)" width="1920"/>
+                <img src="5a5f695013c4ae4c0877a12631f3f4ac67cbf70a7304c32497a71c0635502074.png" title=" Daniel enters '13' into the user enters the count" width="1920"/>
+                <img src="74cbbe94ddcb32a46dcb1de842f22eb224720a59ab58eea2acf01f4ed61d6d97.png" title=" Daniel enters '13' into the user enters the count (completed)" width="1920"/>
+                <img src="74cbbe94ddcb32a46dcb1de842f22eb224720a59ab58eea2acf01f4ed61d6d97.png" title=" Daniel wait hook" width="1920"/>
+                <img src="6d8ff7f7e081e57d709f2adc394445e5e4cda4670d9bbf52cd2f1f6ca286f3a7.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="6d8ff7f7e081e57d709f2adc394445e5e4cda4670d9bbf52cd2f1f6ca286f3a7.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="731356e440900591c2a0e83e0e46306c4c3eb601de8a4e6d6c54ed1fdde96c1e.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="731356e440900591c2a0e83e0e46306c4c3eb601de8a4e6d6c54ed1fdde96c1e.png" title=" Daniel wait hook" width="1920"/>
+                <img src="731356e440900591c2a0e83e0e46306c4c3eb601de8a4e6d6c54ed1fdde96c1e.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="731356e440900591c2a0e83e0e46306c4c3eb601de8a4e6d6c54ed1fdde96c1e.png" title=" Daniel complete third cycle (completed)" width="1920"/>
+                <img src="731356e440900591c2a0e83e0e46306c4c3eb601de8a4e6d6c54ed1fdde96c1e.png" title=" When the user complete the third cycle whit the info 58 14 38 98 -1693956 yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy 13 (completed)" width="1920"/>
+                <img src="38da32f12cbbbb45d4b6746833456af8e3cf36d171229bdf50c28b88aef86dc2.png" title=" When the user complete the fourth cycle whit the info 198 25715231 oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo 14" width="1920"/>
+                <img src="38da32f12cbbbb45d4b6746833456af8e3cf36d171229bdf50c28b88aef86dc2.png" title=" Daniel complete fourth cycle" width="1920"/>
+                <img src="38da32f12cbbbb45d4b6746833456af8e3cf36d171229bdf50c28b88aef86dc2.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="38da32f12cbbbb45d4b6746833456af8e3cf36d171229bdf50c28b88aef86dc2.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="05b0916907c520b1686b9bd94486d48fb89b88a49cbdcc0883172d4c4dfc3825.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="05b0916907c520b1686b9bd94486d48fb89b88a49cbdcc0883172d4c4dfc3825.png" title=" Daniel enters 'oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo' into the user enters all the information" width="1920"/>
+                <img src="ae696f4028130082f5b730489c8c1101a88f35c8ddcb11e893106a584c6211f7.png" title=" Daniel enters 'oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo' into the user enters all the information (completed)" width="1920"/>
+                <img src="ae696f4028130082f5b730489c8c1101a88f35c8ddcb11e893106a584c6211f7.png" title=" Daniel enters '14' into the user enters the count" width="1920"/>
+                <img src="5c3a2f486835009df0eeb2901e2f6e250566834318e9293f0a197bc2d1abe938.png" title=" Daniel enters '14' into the user enters the count (completed)" width="1920"/>
+                <img src="5c3a2f486835009df0eeb2901e2f6e250566834318e9293f0a197bc2d1abe938.png" title=" Daniel wait hook" width="1920"/>
+                <img src="9aafbbbbd041dbe7306981019417adf3808dc32819fa6f9ba351f7269d5bca0f.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="9aafbbbbd041dbe7306981019417adf3808dc32819fa6f9ba351f7269d5bca0f.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="2fd09285967b69f9b10861b94ca940c720578ff3c5daef594d12eb2689fbe87b.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="2fd09285967b69f9b10861b94ca940c720578ff3c5daef594d12eb2689fbe87b.png" title=" Daniel wait hook" width="1920"/>
+                <img src="2fd09285967b69f9b10861b94ca940c720578ff3c5daef594d12eb2689fbe87b.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="2fd09285967b69f9b10861b94ca940c720578ff3c5daef594d12eb2689fbe87b.png" title=" Daniel complete fourth cycle (completed)" width="1920"/>
+                <img src="2fd09285967b69f9b10861b94ca940c720578ff3c5daef594d12eb2689fbe87b.png" title=" When the user complete the fourth cycle whit the info 198 25715231 oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo 14 (completed)" width="1920"/>
+                <img src="80857cf89448132be680b7bd0deadf76816e1757e0610815d8dadf288c12e111.png" title=" When the user complete the fifth cycle whit the info 116 120 7223974 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 12" width="1920"/>
+                <img src="80857cf89448132be680b7bd0deadf76816e1757e0610815d8dadf288c12e111.png" title=" Daniel complete fifth cycle" width="1920"/>
+                <img src="80857cf89448132be680b7bd0deadf76816e1757e0610815d8dadf288c12e111.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="80857cf89448132be680b7bd0deadf76816e1757e0610815d8dadf288c12e111.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="40f794ea9d1e3283fe2665e14b994806912bfbd9d41a9418abd464e63e44fb88.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="40f794ea9d1e3283fe2665e14b994806912bfbd9d41a9418abd464e63e44fb88.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="6d5d6913a5c9c436db92c98e0cf854b5b1a9c12cd66c97acc434528867b3845d.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="6d5d6913a5c9c436db92c98e0cf854b5b1a9c12cd66c97acc434528867b3845d.png" title=" Daniel enters 'hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' into the user enters all the information" width="1920"/>
+                <img src="6079b3f13acbea8142306076c8d9e9712d50caff05ca2e82940e03b31237653f.png" title=" Daniel enters 'hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh' into the user enters all the information (completed)" width="1920"/>
+                <img src="6079b3f13acbea8142306076c8d9e9712d50caff05ca2e82940e03b31237653f.png" title=" Daniel enters '12' into the user enters the count" width="1920"/>
+                <img src="1201bbd585f0ac2f8bfbdcc6db0b27e5d496918b75e6342a754804ef8776a1cd.png" title=" Daniel enters '12' into the user enters the count (completed)" width="1920"/>
+                <img src="1201bbd585f0ac2f8bfbdcc6db0b27e5d496918b75e6342a754804ef8776a1cd.png" title=" Daniel wait hook" width="1920"/>
+                <img src="2894934d0af9a1b91642e55408ae55705d742d85f4bf176d3446df6eb7634f64.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="2894934d0af9a1b91642e55408ae55705d742d85f4bf176d3446df6eb7634f64.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="6a12e0d367c781b1cef5a69d517b98bcb91cc1adb06c2ea50572cc9bba2afa70.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="6a12e0d367c781b1cef5a69d517b98bcb91cc1adb06c2ea50572cc9bba2afa70.png" title=" Daniel wait hook" width="1920"/>
+                <img src="6a12e0d367c781b1cef5a69d517b98bcb91cc1adb06c2ea50572cc9bba2afa70.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="6a12e0d367c781b1cef5a69d517b98bcb91cc1adb06c2ea50572cc9bba2afa70.png" title=" Daniel complete fifth cycle (completed)" width="1920"/>
+                <img src="6a12e0d367c781b1cef5a69d517b98bcb91cc1adb06c2ea50572cc9bba2afa70.png" title=" When the user complete the fifth cycle whit the info 116 120 7223974 hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh 12 (completed)" width="1920"/>
+                <img src="7ffcda861a002b1feb30720f613e04ea32817b5cb54e7f47068c19e0ac86547f.png" title=" When the user complete the sixth cycle whit the info 18 50 92 72 14 104 96 68 62 132 181076480601 uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu 14" width="1920"/>
+                <img src="7ffcda861a002b1feb30720f613e04ea32817b5cb54e7f47068c19e0ac86547f.png" title=" Daniel complete sixth cycle" width="1920"/>
+                <img src="7ffcda861a002b1feb30720f613e04ea32817b5cb54e7f47068c19e0ac86547f.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="7ffcda861a002b1feb30720f613e04ea32817b5cb54e7f47068c19e0ac86547f.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="09cdb5f67a5afc6c9b2a6e13d2ed0b25b3779f38e9e432586e19ff4610867f58.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="09cdb5f67a5afc6c9b2a6e13d2ed0b25b3779f38e9e432586e19ff4610867f58.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="2afcef2aacbb96d34d949954e33ca6c99ce9cda52af21a9bbdcdef025b502c7d.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="2afcef2aacbb96d34d949954e33ca6c99ce9cda52af21a9bbdcdef025b502c7d.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="cff000cde2cb377914f797bea177a9aedf56735a506a49064dc99c4799701cc6.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="cff000cde2cb377914f797bea177a9aedf56735a506a49064dc99c4799701cc6.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="33a9402d0870ab739286aba90ad67f3ffb7e8d911933b999bdb788145da74603.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="33a9402d0870ab739286aba90ad67f3ffb7e8d911933b999bdb788145da74603.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="10de291f7b98b65d232ed64e06167d2395c77c7dd57bfa91979f20299b460ab0.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="10de291f7b98b65d232ed64e06167d2395c77c7dd57bfa91979f20299b460ab0.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="dc6a6e5284abed29eeeba7081f701178b45923068ecb1bded86aa47c081fa0d6.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="dc6a6e5284abed29eeeba7081f701178b45923068ecb1bded86aa47c081fa0d6.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="9ae93ac0c35edf6aef71e244b44ccaa27e48768d783baac3fdc321087f9b7444.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="9ae93ac0c35edf6aef71e244b44ccaa27e48768d783baac3fdc321087f9b7444.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="b3bcb75abc6eec297b18f3bc0763579380f7c23420f3a2eb9ef398c759796f55.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="b3bcb75abc6eec297b18f3bc0763579380f7c23420f3a2eb9ef398c759796f55.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="2cc1adf8d741664b3e0d73f0b4b58ce50410e86693d30903bb90f7277967bcce.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="2cc1adf8d741664b3e0d73f0b4b58ce50410e86693d30903bb90f7277967bcce.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="a14aabf033112530fda7a504c8d99685d9e9771107e2037c4e68b9da5b95b565.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="a14aabf033112530fda7a504c8d99685d9e9771107e2037c4e68b9da5b95b565.png" title=" Daniel enters 'uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu' into the user enters all the information" width="1920"/>
+                <img src="e46845f6aa6a893615562e735918116776f92d11a2c64b97cbb6d3eb751dae1c.png" title=" Daniel enters 'uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu' into the user enters all the information (completed)" width="1920"/>
+                <img src="e46845f6aa6a893615562e735918116776f92d11a2c64b97cbb6d3eb751dae1c.png" title=" Daniel enters '14' into the user enters the count" width="1920"/>
+                <img src="dc1bec2265442209024f9146611da51c965138f811719048c136ca9e10051527.png" title=" Daniel enters '14' into the user enters the count (completed)" width="1920"/>
+                <img src="dc1bec2265442209024f9146611da51c965138f811719048c136ca9e10051527.png" title=" Daniel wait hook" width="1920"/>
+                <img src="e40988ecc51344c2c100955b88dbfeb40882e782fe166c3a2c48250bc8358f5b.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="e40988ecc51344c2c100955b88dbfeb40882e782fe166c3a2c48250bc8358f5b.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="b4dff2564199f55c40e86b8cf915ef549c267ef3d8ee7718209a3b70cd15b566.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="b4dff2564199f55c40e86b8cf915ef549c267ef3d8ee7718209a3b70cd15b566.png" title=" Daniel wait hook" width="1920"/>
+                <img src="b4dff2564199f55c40e86b8cf915ef549c267ef3d8ee7718209a3b70cd15b566.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="b4dff2564199f55c40e86b8cf915ef549c267ef3d8ee7718209a3b70cd15b566.png" title=" Daniel complete sixth cycle (completed)" width="1920"/>
+                <img src="b4dff2564199f55c40e86b8cf915ef549c267ef3d8ee7718209a3b70cd15b566.png" title=" When the user complete the sixth cycle whit the info 18 50 92 72 14 104 96 68 62 132 181076480601 uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu 14 (completed)" width="1920"/>
+                <img src="a1072af6b0e8d9548b3c08672c69e346552c3b8d7c8a48c7bac16e8b390ef9bc.png" title=" When the user complete the seventh cycle whit the info 72 126 600 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 18" width="1920"/>
+                <img src="a1072af6b0e8d9548b3c08672c69e346552c3b8d7c8a48c7bac16e8b390ef9bc.png" title=" Daniel complete seventh cycle" width="1920"/>
+                <img src="a1072af6b0e8d9548b3c08672c69e346552c3b8d7c8a48c7bac16e8b390ef9bc.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="a1072af6b0e8d9548b3c08672c69e346552c3b8d7c8a48c7bac16e8b390ef9bc.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="d931c4700c8118a64d630def13d356755eabbe4144bb56f0dca6409f5b5e8b3e.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="d931c4700c8118a64d630def13d356755eabbe4144bb56f0dca6409f5b5e8b3e.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="9e5c9056d29fa95aff9302a8b17ff0fada221c987440a402cbac4cda81ad4cf0.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="9e5c9056d29fa95aff9302a8b17ff0fada221c987440a402cbac4cda81ad4cf0.png" title=" Daniel enters 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB' into the user enters all the information" width="1920"/>
+                <img src="22d69395f2265dce4fc34d35b164ea9833827527560ef7ebba90c10505f71500.png" title=" Daniel enters 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB' into the user enters all the information (completed)" width="1920"/>
+                <img src="22d69395f2265dce4fc34d35b164ea9833827527560ef7ebba90c10505f71500.png" title=" Daniel enters '18' into the user enters the count" width="1920"/>
+                <img src="7b97d97dbd588339113b55de73a6b6820862de2059385a5f60411fa06722f7fe.png" title=" Daniel enters '18' into the user enters the count (completed)" width="1920"/>
+                <img src="7b97d97dbd588339113b55de73a6b6820862de2059385a5f60411fa06722f7fe.png" title=" Daniel wait hook" width="1920"/>
+                <img src="24738c41f621510b934ddfbb111a5ed33a6b4f939ee3603522f04a595c4772c2.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="24738c41f621510b934ddfbb111a5ed33a6b4f939ee3603522f04a595c4772c2.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="0c237cc0c55947e0e918c4d7512186ed6fbad513003177fab32beed06e2a3774.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="0c237cc0c55947e0e918c4d7512186ed6fbad513003177fab32beed06e2a3774.png" title=" Daniel wait hook" width="1920"/>
+                <img src="0c237cc0c55947e0e918c4d7512186ed6fbad513003177fab32beed06e2a3774.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="0c237cc0c55947e0e918c4d7512186ed6fbad513003177fab32beed06e2a3774.png" title=" Daniel complete seventh cycle (completed)" width="1920"/>
+                <img src="0c237cc0c55947e0e918c4d7512186ed6fbad513003177fab32beed06e2a3774.png" title=" When the user complete the seventh cycle whit the info 72 126 600 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 18 (completed)" width="1920"/>
+                <img src="b8c77e4ce87b40c05b0f8b0f2af6bca5860ef733aa6fe4b65176af12b1165760.png" title=" When the user complete the eighth cycle whit the info 38345 eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee 11" width="1920"/>
+                <img src="b8c77e4ce87b40c05b0f8b0f2af6bca5860ef733aa6fe4b65176af12b1165760.png" title=" Daniel complete eighth cycle" width="1920"/>
+                <img src="b8c77e4ce87b40c05b0f8b0f2af6bca5860ef733aa6fe4b65176af12b1165760.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="b8c77e4ce87b40c05b0f8b0f2af6bca5860ef733aa6fe4b65176af12b1165760.png" title=" Daniel enters 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee' into the user enters all the information" width="1920"/>
+                <img src="079c2e9b35bb995e85cc91cd90d208e42dc366c15f20ec590b7186e3fe4f649d.png" title=" Daniel enters 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee' into the user enters all the information (completed)" width="1920"/>
+                <img src="079c2e9b35bb995e85cc91cd90d208e42dc366c15f20ec590b7186e3fe4f649d.png" title=" Daniel enters '11' into the user enters the count" width="1920"/>
+                <img src="119b165797c672404860fb0cb222d22182fddf49571e5459efc44db90e38ee18.png" title=" Daniel enters '11' into the user enters the count (completed)" width="1920"/>
+                <img src="119b165797c672404860fb0cb222d22182fddf49571e5459efc44db90e38ee18.png" title=" Daniel wait hook" width="1920"/>
+                <img src="4df9959323c6b677bb2a227ae419b379fc6315d81bfbdcc4e1f7acf25744fd28.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="4df9959323c6b677bb2a227ae419b379fc6315d81bfbdcc4e1f7acf25744fd28.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="a959c7a8c592fa50d15aa538451e33d63e7075d46f7415ff815868f35b025e82.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="a959c7a8c592fa50d15aa538451e33d63e7075d46f7415ff815868f35b025e82.png" title=" Daniel wait hook" width="1920"/>
+                <img src="a959c7a8c592fa50d15aa538451e33d63e7075d46f7415ff815868f35b025e82.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="a959c7a8c592fa50d15aa538451e33d63e7075d46f7415ff815868f35b025e82.png" title=" Daniel complete eighth cycle (completed)" width="1920"/>
+                <img src="a959c7a8c592fa50d15aa538451e33d63e7075d46f7415ff815868f35b025e82.png" title=" When the user complete the eighth cycle whit the info 38345 eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee 11 (completed)" width="1920"/>
+                <img src="bf91f6bb04f4ba867784039f09653fe6c2f240cc95e1dc456614e124946b216e.png" title=" When the user complete the ninth cycle whit the info 60 359327 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb 15" width="1920"/>
+                <img src="bf91f6bb04f4ba867784039f09653fe6c2f240cc95e1dc456614e124946b216e.png" title=" Daniel complete ninth cycle" width="1920"/>
+                <img src="bf91f6bb04f4ba867784039f09653fe6c2f240cc95e1dc456614e124946b216e.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="bf91f6bb04f4ba867784039f09653fe6c2f240cc95e1dc456614e124946b216e.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="d9ec44da74c72dd74cf3c8b5989fd56ce6d5d395a5c39f084904fd385e83b9f0.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="d9ec44da74c72dd74cf3c8b5989fd56ce6d5d395a5c39f084904fd385e83b9f0.png" title=" Daniel enters 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb' into the user enters all the information" width="1920"/>
+                <img src="60cdfcc50979fbfb43cc706356dc2deb1b30e3f7f000630b8e341b3460c8e37c.png" title=" Daniel enters 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb' into the user enters all the information (completed)" width="1920"/>
+                <img src="60cdfcc50979fbfb43cc706356dc2deb1b30e3f7f000630b8e341b3460c8e37c.png" title=" Daniel enters '15' into the user enters the count" width="1920"/>
+                <img src="d20369fc9dbd90c2a18d632a7d6029570d0682f889ab78736c35e47007999b0e.png" title=" Daniel enters '15' into the user enters the count (completed)" width="1920"/>
+                <img src="d20369fc9dbd90c2a18d632a7d6029570d0682f889ab78736c35e47007999b0e.png" title=" Daniel wait hook" width="1920"/>
+                <img src="64bc495731b6145b626904ced112e24a48d58b289702e7421651683802ac01e6.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="64bc495731b6145b626904ced112e24a48d58b289702e7421651683802ac01e6.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="8e676ca44a1c1ec7259aa23d642d2a518c68832cd9cfa99eb50785e7e1fecb18.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="8e676ca44a1c1ec7259aa23d642d2a518c68832cd9cfa99eb50785e7e1fecb18.png" title=" Daniel wait hook" width="1920"/>
+                <img src="8e676ca44a1c1ec7259aa23d642d2a518c68832cd9cfa99eb50785e7e1fecb18.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="8e676ca44a1c1ec7259aa23d642d2a518c68832cd9cfa99eb50785e7e1fecb18.png" title=" Daniel complete ninth cycle (completed)" width="1920"/>
+                <img src="8e676ca44a1c1ec7259aa23d642d2a518c68832cd9cfa99eb50785e7e1fecb18.png" title=" When the user complete the ninth cycle whit the info 60 359327 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb 15 (completed)" width="1920"/>
+                <img src="06512f3c796735bcff3c962f30de0e7a750fef86c90710be97b5cda4d22b0e57.png" title=" When the user complete the tenth cycle 80 76 3760 ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg 14" width="1920"/>
+                <img src="06512f3c796735bcff3c962f30de0e7a750fef86c90710be97b5cda4d22b0e57.png" title=" Daniel complete tenth cycle" width="1920"/>
+                <img src="06512f3c796735bcff3c962f30de0e7a750fef86c90710be97b5cda4d22b0e57.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="06512f3c796735bcff3c962f30de0e7a750fef86c90710be97b5cda4d22b0e57.png" title=" Daniel clicks on the user select a good answer" width="1920"/>
+                <img src="3c06d95aaa099138ed540055bdbea815c45e39d45da78f646bda6e17e3607269.png" title=" Daniel clicks on the user select a good answer (completed)" width="1920"/>
+                <img src="3c06d95aaa099138ed540055bdbea815c45e39d45da78f646bda6e17e3607269.png" title=" Daniel clicks on The user enters the value of the operation" width="1920"/>
+                <img src="1a960ff3949f5eff890b4a562a2b9a876c5ed45009e090c0a3b4030a34053e7a.png" title=" Daniel clicks on The user enters the value of the operation (completed)" width="1920"/>
+                <img src="1a960ff3949f5eff890b4a562a2b9a876c5ed45009e090c0a3b4030a34053e7a.png" title=" Daniel enters 'ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg' into the user enters all the information" width="1920"/>
+                <img src="1ae6639d94b1fecb863f5f72c2927ee1b3e5937f9320608c6de17823bd52da94.png" title=" Daniel enters 'ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg' into the user enters all the information (completed)" width="1920"/>
+                <img src="1ae6639d94b1fecb863f5f72c2927ee1b3e5937f9320608c6de17823bd52da94.png" title=" Daniel enters '14' into the user enters the count" width="1920"/>
+                <img src="916584c8eac711cf74d9a1bbb6b9e98b5dc2326899fb054649fe161a829132a0.png" title=" Daniel enters '14' into the user enters the count (completed)" width="1920"/>
+                <img src="916584c8eac711cf74d9a1bbb6b9e98b5dc2326899fb054649fe161a829132a0.png" title=" Daniel wait hook" width="1920"/>
+                <img src="b88a2a6176a069de100c83ff354dd11574a1967f208aa7f275212ee564162a7b.png" title=" Daniel wait hook (completed)" width="1920"/>
+                <img src="b88a2a6176a069de100c83ff354dd11574a1967f208aa7f275212ee564162a7b.png" title=" Daniel clicks on The user send the information" width="1920"/>
+                <img src="be8963f3465f94f0d9f31204c8780196ad6b6d58c0791f2a4a9cf342bb4f7568.png" title=" Daniel clicks on The user send the information (completed)" width="1920"/>
+                <img src="be8963f3465f94f0d9f31204c8780196ad6b6d58c0791f2a4a9cf342bb4f7568.png" title=" Daniel wait hook" width="1920"/>
+                <img src="431fafa1a8829399c3c0406d1cde7906ef15afd11c34a0369b3c31d2815079e7.png" title=" Daniel wait hook (completed)" width="1365"/>
+                <img src="431fafa1a8829399c3c0406d1cde7906ef15afd11c34a0369b3c31d2815079e7.png" title=" Daniel complete tenth cycle (completed)" width="1365"/>
+                <img src="431fafa1a8829399c3c0406d1cde7906ef15afd11c34a0369b3c31d2815079e7.png" title=" When the user complete the tenth cycle 80 76 3760 ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg 14 (completed)" width="1365"/>
+                <img src="431fafa1a8829399c3c0406d1cde7906ef15afd11c34a0369b3c31d2815079e7.png" title=" Then the user should see the token: <span class='success-color'>SUCCESS</span>" width="1365"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.69</span>
+</div>
+</body>
+</html>
